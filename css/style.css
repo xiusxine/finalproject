@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    margin: 0;
+}
+
+#navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#link-list {
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    margin: 0;
+    margin-top: 4px;
+}
+
+#link-list a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#link-list a:hover {
+    background-color: teal;
+}
+
+#home {
+    position: relative;
+}
+
+#home-image {
+    width: 100%;
+}
+
+#home-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.home-text {
+    margin: auto;
+}
+
+#music {
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+}
+
+#music-image {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    z-index: -1;
+}
+
+#player {
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+#education {
+    position: relative;
+}
+
+#education-image {
+    width: 100%;
+}
+
+#education-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.education-text {
+    margin: auto;
+}
+
+#experience {
+    position: relative;
+}
+
+#experience-image {
+    width: 100%;
+}
+
+#experience-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.experience-text {
+    margin: auto;
+}
+
+#award {
+    position: relative;
+}
+
+#award-image {
+    width: 100%;
+}
+
+#award-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.award-text {
+    color: white;
+    margin: auto;
+}
+
+#about {
+    position: relative;
+}
+
+#about-image {
+    width: 100%;
+}
+
+#about-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.about-text {
+    margin: auto;
+}
+
+#skills {
+    position: relative;
+}
+
+#skills-image {
+    width: 100%;
+}
+
+#skills-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.skills-text {
+    margin: auto;
+}
+
+#interests {
+    position: relative;
+}
+
+#interests-image {
+    width: 100%;
+}
+
+#interests-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.interests-text {
+    margin: auto;
+}
